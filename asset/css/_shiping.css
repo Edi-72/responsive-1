@@ -1,0 +1,21 @@
+.shiping-wraper img{
+    width: 38px;
+    height: 28px;
+    /* margin-left: 12px;
+    margin-right: 12px; */
+    margin-top: 2px;
+}
+.shiping-wraper-p{
+    font-size: 13px;
+    /* margin-left: 5px; */
+}
+.s-font-1{
+    font-size: 10px;
+    /* margin-left: 5px; */
+}
+.shiping-wraper div{
+    padding: 10px;
+}
+.wraper-ads{
+    height: fit-content;
+}

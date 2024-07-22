@@ -1,0 +1,80 @@
+.custom-nav-tabs .nav-link{
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0 ;
+    font-size: 15px;
+    color: #272626;
+}
+.custom-nav-tabs .nav-link.active  .nav-item.show .nav-link{
+    color: rgb(238, 99, 99);
+    background-color: transparent;
+    border-color: transparent;
+}
+.custom-nav-tabs .nav-link:hover  .nav-item.show .nav-link:focus{
+    border-color: transparent;
+}
+.custom-a-fon a{
+    font-size: 14px;
+}
+.offer-details{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.offer-details a{
+    font-size: 13px;
+    color: #9891ff;
+}
+
+.offer-details .offer-rating i{
+    color: #caca14;
+    font-size: 14px;
+}
+.offer-price s{
+    color: red;
+    padding-right: 15px;
+    font-size: 14px;
+}
+.offer-price span{
+    font-size: 14px;
+    color: #565555;
+}
+.count-down-timer {
+     font-size: 14px;
+     color: #565555;
+}
+.count-down-timer span{
+    color: red;
+}
+.offer-product-img{
+    height: 147px;
+    overflow: hidden;
+    
+}
+.offer-product-img img{
+    width: 147px;
+}
+.offer-product-img:hover .firs-img,.offer-product-img:hover .second-img{
+   transform: translateY(-147px); 
+}
+.offer-product-img .firs-img,.offer-product-img .second-img{
+    transition: .5s;
+}
+.s-0-box-shadow{
+    box-shadow: 0 0 1px 1px #efefef;
+    z-index: 1;
+}
+.offer-section-title{
+    left: 0;
+    border-bottom: 2px solid red;
+    padding-bottom: 3px;
+    font-size: 20px;
+    top: -5px;
+  
+}
+@media screen and (max-width:410px){
+    .offer-section-title{
+        font-size: 14px;
+        top: 0;
+      
+    }
+}

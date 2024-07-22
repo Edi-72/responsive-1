@@ -1,0 +1,72 @@
+/* .bg-top-nav{
+    background-color: turquoise;
+} */
+.hji-bg{
+    background-color: rgb(45, 1, 56);
+}
+.edi-1, .hji-bg p{
+    font-size: 14px;
+}
+.edi-1 a{
+    padding: 10px;
+    
+}
+.edi-1, .border-right{
+    border-color:#4a4a4a!important ;
+}
+.icon1-shop-bas{
+    width: 15px;
+    height: 15px;
+    /* background-color:transparent; */
+}
+.shop-card1{
+    background-color: transparent;
+}
+.shop-card1 span{
+    font-size: 16px;
+}
+.shop-card1{
+    vertical-align: -1px;
+}
+.basket{
+    width: 60px;
+    height: 60px;
+}
+.basket a{
+    font-size: 14px;
+}
+.basket, .dropdown-item:hover{
+    background-color: rgb(159, 159, 247);
+
+}
+.custom-navbar-nav, .nav-item, .custom-navbar{
+    position: unset;
+}
+.custom-navbar-nav .nav-item .dropdown-menu{
+    color:#fff;
+    background: #232f3e;
+    border-radius: 0;
+    top: 67;
+    border: none;
+}
+.dropdown-img img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+@media (max-width:576) {
+    .mt-csm-3{
+        margin-top: 1rem !important;
+    }
+    
+}
+.custom-navbar-toggler{
+    color: #fff;
+    border: none;
+}
+.custom-navbar-toggler:focus{
+    outline: none;
+}
+.input-top-nav-search::-webkit-input-placeholder{
+    font-size: 16px;
+}
